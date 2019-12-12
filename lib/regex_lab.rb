@@ -1,4 +1,9 @@
-def starts_with_a_vowel?(word)
+def starts_with_a_vowelif word.match(/^[AEIOU]|^[aeiou]/)
+    true
+  else
+    false
+  end
+end
 
 end
 
